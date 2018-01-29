@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Today</h1>
+
+
+<% d = DateTime.now %>
+<% day_of_week = d.strftime('%A')%>
+<% month = d.strftime('%B')%>
+<% date = d.day%>
+<% year = d.year%>
+
+<p><%= "The date is #{day_of_week}, #{month} #{date}, #{year}" %><p>
+</body>
+</html>
